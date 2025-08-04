@@ -1,5 +1,5 @@
 '''This is a programme to print the factorial of the number inputer by the user.'''
-print("This is a programme to print the factorial of the number.")
+print("This is a programme to print the factorial of the number by - Abhay12-python.")
 while True:
     try:
         n = int(input("Enter the number which you have to find the factorial of : "))
@@ -17,4 +17,5 @@ else :
     for i in range(1,n+1):
         factorial *= i
     print(f"The factorial of {n} is {factorial}")
+
 
