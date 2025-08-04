@@ -1,5 +1,5 @@
 '''This is a programme to print the factorial of the number inputer by the user.'''
-print("This is a programme to print the factorial of the number.")
+print("This is a programme to print the factorial of the number by Abhay14-python.")
 while True:
     try:
         n = int(input("Enter the number which you have to find the factorial of : "))
@@ -15,4 +15,5 @@ def factorial(n):
 if n < 0:
     print("Factorial does not exist for negative numbers.")
 else :
+
     print(f"The factorial of {n} is {factorial(n)}")
